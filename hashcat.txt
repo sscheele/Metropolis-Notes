@@ -1,0 +1,11 @@
+hashcat -m{type} [hashfile] [dictionary]
+
+hashfile format is hash:salt
+
+popular types:
+(note: if x=00, no salt. if x=10, password first. if x=20, password second)
+x (MD5) (note: no salt is 0, not 00)
+1x (sha1)
+14x (sha2)
+17x (sha512)
+

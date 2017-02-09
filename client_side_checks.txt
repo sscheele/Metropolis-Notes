@@ -1,0 +1,7 @@
+Any script that attempts to implement client-side checks to validate input can be bypassed:
+
+Cookies and headers: change them!
+
+JavaScript: use firebug or similar to simply remove the script
+
+More complex problems: try a custom POST

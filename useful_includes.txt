@@ -1,0 +1,1 @@
+If you can access the robots.txt or the .htaccess files, both will give potentially useful information about things the site owner doesn't like people looking at

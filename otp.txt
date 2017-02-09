@@ -1,0 +1,5 @@
+If a challenge mentions a one-time pad, you're probably dealing with either a simple calculation or a multi-time pad
+If they give you two things (ie, a key and an encrypted message), XOR them
+If they give you just an encrypted message but tell you something about key reuse or short keys, you're looking at multi-use key:
+Use cribdrag and some patience, unless key is less than 7 chars (and then brute it)
+

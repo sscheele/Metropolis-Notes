@@ -1,0 +1,4 @@
+If a site is using SSI and evaluating your input as raw HTML, you may be able to get Apache to give you what you need
+Try entering 
+
+<!--#exec cmd="ls ../" -->

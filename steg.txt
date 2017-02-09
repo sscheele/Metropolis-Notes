@@ -1,0 +1,18 @@
+90% of steg is foremost, binwalk, strings, and xxd:
+
+foremost and binwalk (foremost file, binwalk -e file):
+both of these tools look for "magic numbers" and extract files from other files if they find them
+fwiw, binwalk is a little better at this than foremost
+foremost will also mess your terminal up if you don't give it a file - just press CTRL+D (EOF) if this happens
+
+strings: literally prints out all the readable strings found in a file
+
+xxd: allows you to see the hex of a file and interprets it as a string off to the left
+
+The other 10% is image steg. You can often use stegsolve for this, but you sometimes need DIIT for metropolis
+To run stegsolve: java -jar stegsolve.jar
+(go through every map - I know it's boring)
+For DIIT, just experiment :p
+
+
+

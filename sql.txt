@@ -1,0 +1,10 @@
+SQL Injection:
+Typical SQL Lookup: SELECT * FROM users WHERE name="[name]";
+
+If you set [name]=" OR 1=1; -- 
+
+SELECT * FROM users WHERE name="" OR 1=1; -- "
+
+-- comments out the rest of the line
+
+Note that SQL lets you use single quotes too, so fiddle with it. If you can break the site with a certain input, you're on the right track

@@ -1,0 +1,2 @@
+LFI (Local File Inclusion) is when someone accidentally allows you to access a file you shouldn't be able to
+Ex: www.example.com/../../etc/shadow
